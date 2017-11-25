@@ -12,9 +12,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func buttonTapped(_ sender: UISwitch) {
+    @IBAction func buttonTapped(_ sender: UIButton) {
         print("Called buttonTapped(_:)");
-        print("sender: \(sender)")
-        print("Is control on> \(sender.isOn)")  //UIButton has no isOn, resulting in crash
     }
 }
