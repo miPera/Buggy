@@ -15,6 +15,6 @@ class ViewController: UIViewController {
     @IBAction func buttonTapped(_ sender: UISwitch) {
         print("Called buttonTapped(_:)");
         print("sender: \(sender)")
-        print("Is control on> \(sender.isOn)")
+        print("Is control on> \(sender.isOn)")  //UIButton has no isOn, resulting in crash
     }
 }
