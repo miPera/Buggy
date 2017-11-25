@@ -1,11 +1,3 @@
-//
-//  ViewController.swift
-//  Buggy
-//
-//  Created by Miguel Peralta on 11/16/17.
-//  Copyright © 2017 BIg Nerd Ranch. All rights reserved.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
@@ -20,8 +12,8 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func buttonTapped(_ sender: UIButton) {
+    @IBAction func buttonTapped(_ sender: UISwitch) {
         print("Called buttonTapped(_:)");
+        print("Is control on> \(sender.isOn)")
     }
 }
-
